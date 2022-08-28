@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2119564F28BC3686002D38BE /* Finflix_Financial_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119564E28BC3686002D38BE /* Finflix_Financial_TrackerApp.swift */; };
+		2119565128BC3686002D38BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119565028BC3686002D38BE /* ContentView.swift */; };
+		2119565328BC3688002D38BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2119565228BC3688002D38BE /* Assets.xcassets */; };
+		2119565628BC3688002D38BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2119565528BC3688002D38BE /* Preview Assets.xcassets */; };
+		2119566028BC3688002D38BE /* Finflix_Financial_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119565F28BC3688002D38BE /* Finflix_Financial_TrackerTests.swift */; };
+		2119566A28BC3688002D38BE /* Finflix_Financial_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119566928BC3688002D38BE /* Finflix_Financial_TrackerUITests.swift */; };
+		2119566C28BC3688002D38BE /* Finflix_Financial_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119566B28BC3688002D38BE /* Finflix_Financial_TrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2119565C28BC3688002D38BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2119564328BC3686002D38BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2119564A28BC3686002D38BE;
+			remoteInfo = "Finflix Financial Tracker";
+		};
+		2119566628BC3688002D38BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2119564328BC3686002D38BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2119564A28BC3686002D38BE;
+			remoteInfo = "Finflix Financial Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2119564B28BC3686002D38BE /* Finflix Financial Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finflix Financial Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2119564E28BC3686002D38BE /* Finflix_Financial_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finflix_Financial_TrackerApp.swift; sourceTree = "<group>"; };
+		2119565028BC3686002D38BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2119565228BC3688002D38BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2119565528BC3688002D38BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2119565B28BC3688002D38BE /* Finflix Financial TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finflix Financial TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2119565F28BC3688002D38BE /* Finflix_Financial_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finflix_Financial_TrackerTests.swift; sourceTree = "<group>"; };
+		2119566528BC3688002D38BE /* Finflix Financial TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finflix Financial TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2119566928BC3688002D38BE /* Finflix_Financial_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finflix_Financial_TrackerUITests.swift; sourceTree = "<group>"; };
+		2119566B28BC3688002D38BE /* Finflix_Financial_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finflix_Financial_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2119564828BC3686002D38BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119565828BC3688002D38BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119566228BC3688002D38BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2119564228BC3686002D38BE = {
+			isa = PBXGroup;
+			children = (
+				2119564D28BC3686002D38BE /* Finflix Financial Tracker */,
+				2119565E28BC3688002D38BE /* Finflix Financial TrackerTests */,
+				2119566828BC3688002D38BE /* Finflix Financial TrackerUITests */,
+				2119564C28BC3686002D38BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2119564C28BC3686002D38BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2119564B28BC3686002D38BE /* Finflix Financial Tracker.app */,
+				2119565B28BC3688002D38BE /* Finflix Financial TrackerTests.xctest */,
+				2119566528BC3688002D38BE /* Finflix Financial TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2119564D28BC3686002D38BE /* Finflix Financial Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				2119564E28BC3686002D38BE /* Finflix_Financial_TrackerApp.swift */,
+				2119565028BC3686002D38BE /* ContentView.swift */,
+				2119565228BC3688002D38BE /* Assets.xcassets */,
+				2119565428BC3688002D38BE /* Preview Content */,
+			);
+			path = "Finflix Financial Tracker";
+			sourceTree = "<group>";
+		};
+		2119565428BC3688002D38BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2119565528BC3688002D38BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2119565E28BC3688002D38BE /* Finflix Financial TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2119565F28BC3688002D38BE /* Finflix_Financial_TrackerTests.swift */,
+			);
+			path = "Finflix Financial TrackerTests";
+			sourceTree = "<group>";
+		};
+		2119566828BC3688002D38BE /* Finflix Financial TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2119566928BC3688002D38BE /* Finflix_Financial_TrackerUITests.swift */,
+				2119566B28BC3688002D38BE /* Finflix_Financial_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Finflix Financial TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2119564A28BC3686002D38BE /* Finflix Financial Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2119566F28BC3688002D38BE /* Build configuration list for PBXNativeTarget "Finflix Financial Tracker" */;
+			buildPhases = (
+				2119564728BC3686002D38BE /* Sources */,
+				2119564828BC3686002D38BE /* Frameworks */,
+				2119564928BC3686002D38BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finflix Financial Tracker";
+			productName = "Finflix Financial Tracker";
+			productReference = 2119564B28BC3686002D38BE /* Finflix Financial Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2119565A28BC3688002D38BE /* Finflix Financial TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2119567228BC3688002D38BE /* Build configuration list for PBXNativeTarget "Finflix Financial TrackerTests" */;
+			buildPhases = (
+				2119565728BC3688002D38BE /* Sources */,
+				2119565828BC3688002D38BE /* Frameworks */,
+				2119565928BC3688002D38BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2119565D28BC3688002D38BE /* PBXTargetDependency */,
+			);
+			name = "Finflix Financial TrackerTests";
+			productName = "Finflix Financial TrackerTests";
+			productReference = 2119565B28BC3688002D38BE /* Finflix Financial TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2119566428BC3688002D38BE /* Finflix Financial TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2119567528BC3688002D38BE /* Build configuration list for PBXNativeTarget "Finflix Financial TrackerUITests" */;
+			buildPhases = (
+				2119566128BC3688002D38BE /* Sources */,
+				2119566228BC3688002D38BE /* Frameworks */,
+				2119566328BC3688002D38BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2119566728BC3688002D38BE /* PBXTargetDependency */,
+			);
+			name = "Finflix Financial TrackerUITests";
+			productName = "Finflix Financial TrackerUITests";
+			productReference = 2119566528BC3688002D38BE /* Finflix Financial TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2119564328BC3686002D38BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2119564A28BC3686002D38BE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2119565A28BC3688002D38BE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2119564A28BC3686002D38BE;
+					};
+					2119566428BC3688002D38BE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2119564A28BC3686002D38BE;
+					};
+				};
+			};
+			buildConfigurationList = 2119564628BC3686002D38BE /* Build configuration list for PBXProject "Finflix Financial Tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2119564228BC3686002D38BE;
+			productRefGroup = 2119564C28BC3686002D38BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2119564A28BC3686002D38BE /* Finflix Financial Tracker */,
+				2119565A28BC3688002D38BE /* Finflix Financial TrackerTests */,
+				2119566428BC3688002D38BE /* Finflix Financial TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2119564928BC3686002D38BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2119565628BC3688002D38BE /* Preview Assets.xcassets in Resources */,
+				2119565328BC3688002D38BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119565928BC3688002D38BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119566328BC3688002D38BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2119564728BC3686002D38BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2119565128BC3686002D38BE /* ContentView.swift in Sources */,
+				2119564F28BC3686002D38BE /* Finflix_Financial_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119565728BC3688002D38BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2119566028BC3688002D38BE /* Finflix_Financial_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119566128BC3688002D38BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2119566C28BC3688002D38BE /* Finflix_Financial_TrackerUITestsLaunchTests.swift in Sources */,
+				2119566A28BC3688002D38BE /* Finflix_Financial_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2119565D28BC3688002D38BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2119564A28BC3686002D38BE /* Finflix Financial Tracker */;
+			targetProxy = 2119565C28BC3688002D38BE /* PBXContainerItemProxy */;
+		};
+		2119566728BC3688002D38BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2119564A28BC3686002D38BE /* Finflix Financial Tracker */;
+			targetProxy = 2119566628BC3688002D38BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2119566D28BC3688002D38BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2119566E28BC3688002D38BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2119567028BC3688002D38BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Finflix Financial Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inner-Schema.Finflix-Financial-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2119567128BC3688002D38BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Finflix Financial Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inner-Schema.Finflix-Financial-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2119567328BC3688002D38BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inner-Schema.Finflix-Financial-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finflix Financial Tracker.app/Finflix Financial Tracker";
+			};
+			name = Debug;
+		};
+		2119567428BC3688002D38BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inner-Schema.Finflix-Financial-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finflix Financial Tracker.app/Finflix Financial Tracker";
+			};
+			name = Release;
+		};
+		2119567628BC3688002D38BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inner-Schema.Finflix-Financial-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Finflix Financial Tracker";
+			};
+			name = Debug;
+		};
+		2119567728BC3688002D38BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inner-Schema.Finflix-Financial-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Finflix Financial Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2119564628BC3686002D38BE /* Build configuration list for PBXProject "Finflix Financial Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2119566D28BC3688002D38BE /* Debug */,
+				2119566E28BC3688002D38BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2119566F28BC3688002D38BE /* Build configuration list for PBXNativeTarget "Finflix Financial Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2119567028BC3688002D38BE /* Debug */,
+				2119567128BC3688002D38BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2119567228BC3688002D38BE /* Build configuration list for PBXNativeTarget "Finflix Financial TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2119567328BC3688002D38BE /* Debug */,
+				2119567428BC3688002D38BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2119567528BC3688002D38BE /* Build configuration list for PBXNativeTarget "Finflix Financial TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2119567628BC3688002D38BE /* Debug */,
+				2119567728BC3688002D38BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2119564328BC3686002D38BE /* Project object */;
+}
