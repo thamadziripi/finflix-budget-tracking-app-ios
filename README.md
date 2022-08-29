@@ -1,7 +1,11 @@
 # Finflix Finance Tracker
 
+<br>
+
 # Description
 
 <br>
 
-# Get Started
+# Features
+
+<br>
